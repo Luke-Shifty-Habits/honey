@@ -214,6 +214,25 @@ textarea { resize: vertical; }
   font-weight: 600;
 }
 
+.payment {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fffaf1;
+}
+.payment h3 { font-size: 1.15rem; }
+.payment p { margin: 0 0 .75rem; }
+
+.payid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .4rem 1rem;
+  margin: 0 0 .9rem;
+}
+.payid dt { font-weight: 600; color: var(--ink-soft); }
+.payid dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+
 .or {
   margin: 2.5rem 0 1rem;
   text-align: center;
