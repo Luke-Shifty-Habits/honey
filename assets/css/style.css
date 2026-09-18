@@ -233,6 +233,16 @@ textarea { resize: vertical; }
 .payid dt { font-weight: 600; color: var(--ink-soft); }
 .payid dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
 
+.warn {
+  margin: 0;
+  padding: .7rem .9rem;
+  border-left: 4px solid var(--honey);
+  border-radius: 0 8px 8px 0;
+  background: #fff3dc;
+  color: var(--bark);
+  font-size: .92rem;
+}
+
 .or {
   margin: 2.5rem 0 1rem;
   text-align: center;
