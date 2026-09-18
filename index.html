@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>L &amp; A B Honey — Raw Tasmanian Leatherwood Honey</title>
+<meta name="description" content="Raw, unfiltered Leatherwood honey from our own hives. 250g and 1kg jars. Order direct.">
+<meta name="theme-color" content="#7a4a12">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍯</text></svg>">
+<link rel="preload" as="image" href="assets/img/comb-frame.jpg">
+<link rel="stylesheet" href="assets/css/style.css">
+<meta property="og:title" content="L &amp; A B Honey">
+<meta property="og:description" content="Raw Leatherwood honey, straight from our hives.">
+<meta property="og:image" content="assets/img/leatherwood-jars.jpg">
+<meta property="og:type" content="website">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero__img" role="img" aria-label="A frame of capped honeycomb dripping with honey"></div>
+  <div class="hero__body">
+    <p class="eyebrow">Raw &amp; unfiltered · Straight from our hives</p>
+    <h1>L &amp; A B Honey</h1>
+    <p class="lede">Single-origin Leatherwood honey, extracted and jarred by us. No blending, no heating, nothing added.</p>
+    <a class="btn btn--primary" href="#order">Order a jar</a>
+  </div>
+</header>
+
+<main>
+
+<section id="honey" class="section">
+  <h2>What's in the jar</h2>
+
+  <article class="product">
+    <img src="assets/img/jar-sizes.jpg" alt="A small and a large jar of golden Leatherwood honey side by side" loading="lazy" width="1000" height="1200">
+    <div class="product__body">
+      <h3>Leatherwood Honey</h3>
+      <p class="product__blurb">Bold, buttery and unmistakably Tasmanian. Leatherwood has a spicy, floral punch you won't find in supermarket honey — best on fresh bread, in tea, or straight off the spoon.</p>
+      <ul class="pricing">
+        <li><span>250g jar</span><b>$10</b></li>
+        <li><span>1kg jar</span><b>$25</b></li>
+      </ul>
+      <p class="instock">In stock now</p>
+      <a class="btn btn--primary" href="#order">Order Leatherwood</a>
+    </div>
+  </article>
+
+  <h3 class="soon-heading">Coming soon</h3>
+  <div class="soon">
+    <div class="soon__card">
+      <h4>Blackberry &amp; Clover</h4>
+      <p>Lighter and sweeter — a gentle everyday honey from summer pasture and blackberry flower.</p>
+      <span class="tag">Next season</span>
+    </div>
+    <div class="soon__card">
+      <h4>Manuka</h4>
+      <p>Dark, malty and prized for its potency. Limited runs only.</p>
+      <span class="tag">Next season</span>
+    </div>
+  </div>
+  <p class="note">Want first pick when these land? Mention it in your order and we'll let you know.</p>
+</section>
+
+<section id="order" class="section section--order">
+  <h2>Order</h2>
+  <p class="lede">Fill this in and hit send — it opens an email to us with your order ready to go. We'll reply to confirm total, pickup or delivery, and payment.</p>
+
+  <form id="order-form" novalidate>
+    <fieldset>
+      <legend>Your jars</legend>
+      <div class="qty">
+        <label for="q250">Leatherwood 250g <span class="qty__price">$10 each</span></label>
+        <input type="number" id="q250" name="q250" min="0" max="99" step="1" value="0" inputmode="numeric">
+      </div>
+      <div class="qty">
+        <label for="q1kg">Leatherwood 1kg <span class="qty__price">$25 each</span></label>
+        <input type="number" id="q1kg" name="q1kg" min="0" max="99" step="1" value="0" inputmode="numeric">
+      </div>
+      <p class="total">Estimated total: <b id="total">$0</b></p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Your details</legend>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" autocomplete="name" required>
+
+      <label for="contact">Phone or email <span class="hint">so we can confirm</span></label>
+      <input type="text" id="contact" name="contact" autocomplete="tel" required>
+
+      <label for="method">Pickup or delivery?</label>
+      <select id="method" name="method">
+        <option>Pickup</option>
+        <option>Local delivery</option>
+        <option>Not sure — let's chat</option>
+      </select>
+
+      <label for="notes">Anything else? <span class="hint">optional</span></label>
+      <textarea id="notes" name="notes" rows="3" placeholder="Suburb, best time to reach you, or interest in Blackberry/Clover or Manuka."></textarea>
+    </fieldset>
+
+    <p id="form-error" class="error" hidden></p>
+    <button type="submit" class="btn btn--primary btn--full">Send order by email</button>
+    <p class="note">Nothing is charged here. Your email app opens with the order written out — you just press send.</p>
+  </form>
+
+  <p class="or">or reach us directly</p>
+  <div class="contact-row">
+    <a class="btn btn--ghost" href="sms:+61499185753?&amp;body=Hi%2C%20I%27d%20like%20to%20order%20some%20honey%3A%20">Text 0499 185 753</a>
+    <a class="btn btn--ghost" href="tel:+61499185753">Call</a>
+    <a class="btn btn--ghost" href="mailto:luke.briggs.honey@gmail.com?subject=Honey%20order">Email us</a>
+  </div>
+</section>
+
+<section id="about" class="section section--about">
+  <h2>About our bees</h2>
+  <div class="about-grid">
+    <img src="assets/img/apiary.jpg" alt="Beekeeper in a white suit lifting a frame from a hive in a sunny paddock" loading="lazy" width="1400" height="1400">
+    <div>
+      <p>We're a small backyard operation — a handful of hives, worked by hand. The honey goes from frame to jar with nothing in between: no pasteurising, no ultra-filtering, no blending with imported syrup.</p>
+      <p>That means it may crystallise over time. That's a good sign, not a fault — stand the jar in warm water and it'll come right back.</p>
+      <p>Every jar is raw honey. As with all honey, it's not suitable for infants under 12 months.</p>
+    </div>
+  </div>
+  <div class="about-grid about-grid--flip">
+    <img src="assets/img/bees-frame.jpg" alt="Honeybees covering a frame of comb" loading="lazy" width="1000" height="1776">
+    <div>
+      <p>Scanned this off a jar label? That jar came out of these hives. Thanks for buying local — it keeps the bees fed and the hives growing.</p>
+      <a class="btn btn--primary" href="#order">Order another</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p><b>L &amp; A B Honey</b></p>
+  <p><a href="mailto:luke.briggs.honey@gmail.com">luke.briggs.honey@gmail.com</a> · <a href="tel:+61499185753">0499 185 753</a></p>
+  <p class="fine">Raw honey. Not suitable for children under 12 months.</p>
+</footer>
+
+<script src="assets/js/order.js"></script>
+</body>
+</html>
